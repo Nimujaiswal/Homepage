@@ -10,8 +10,8 @@
   font-size: 24px;
   font-weight: 700;
   color: #003366;
-  text-align: center; /* This centers the heading */
-  margin-bottom: 40px; /* Add some space below the heading */
+  text-align: center; 
+  margin-bottom: 40px; 
 }
 
 .services-container {
@@ -21,7 +21,6 @@
   margin-bottom: 50px;
 }
 
-/* ... all other CSS remains the same ... */
 .services-image img {
   width: 500px;
   border-radius: 10px;
