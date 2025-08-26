@@ -5,7 +5,7 @@ import building from "../assets/building.png";
 function ServicesSection() {
   return (
     <section className="services">
-      {/* Moved the heading to the top, outside of the main flex container */}
+ 
       <h2 className="services-heading">
         LOREM IPSUM HAS BEEN THE INDUSTRY'S
       </h2>
@@ -15,18 +15,18 @@ function ServicesSection() {
           </p>
 
       <div className="services-container">
-        {/* Left Side - Image */}
+  
         <div className="services-image">
           <img src={building} alt="Building" />
         </div>
 
-        {/* Right Side - Content */}
+    
         <div className="services-content">
           <p className="services-hoptext">
             What We Offer
           </p>
 
-          {/* Services List */}
+    
           <div className="services-list">
             <div className="service-item active">
               <span>Design Design and LIE</span>
@@ -48,7 +48,7 @@ function ServicesSection() {
         </div>
       </div>
 
-      {/* Bottom Section */}
+
       <div className="who-for">
         <h3>Who It's For</h3>
         <p>
