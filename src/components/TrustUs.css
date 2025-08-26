@@ -7,7 +7,6 @@
   text-align: center;
 }
 
-/* Header */
 .trustus-header h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -23,7 +22,6 @@
   margin-bottom: 40px;
 }
 
-/* Features Grid */
 .trustus-features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -60,8 +58,7 @@
   margin-bottom: 5px;
 }
 
-/* Truck Section */
-/* Truck Section */
+
 .trustus-truck {
   margin-top: 60px;
   position: relative;
@@ -71,7 +68,7 @@
   border-radius: 16px;
 }
 
-/* Black Rectangle Overlay */
+
 .truck-overlay {
   position: absolute;
   top: 45%;
@@ -80,7 +77,7 @@
   text-align: left;
 }
 .overlay-box {
-  background: rgba(0, 0, 0, 0.7); /* black rectangle */
+  background: rgba(0, 0, 0, 0.7);
   padding: 20px 30px;
   border-radius: 12px;
   color: #fff;
@@ -105,7 +102,7 @@
   font-weight: 500;
 }
 
-/* Arrows */
+
 .arrow {
   position: absolute;
   top: 38%;
