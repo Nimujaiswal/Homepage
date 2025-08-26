@@ -1,0 +1,144 @@
+.footer {
+    background-color: #0b2d49;
+    color: #ffffff;
+    padding: 60px 80px 20px;
+    font-family: 'Avenir', sans-serif;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-section {
+    flex-basis: 30%;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.social-icon {
+    color: #ffffffa6;
+    cursor: pointer;
+}
+
+.footer-copyright {
+    margin-top: 50px;
+    font-size: 13px;
+    color: #cfd8e3;
+    line-height: 1.4;
+}
+
+.footer-links h4,
+.footer-touch h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-right: 256px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #cfd8e3;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+.footer-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.footer-description {
+    font-size: 13px;
+    color: #cfd8e3;
+    line-height: 1.6;
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+.contact-button {
+    background-color: #00AD6F;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 228px;
+    
+}
+
+.contact-button:hover {
+    background-color: #00a042;
+}
+
+.footer-policy {
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    font-size: 13px;
+    color: #cfd8e3;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        padding: 40px 40px 20px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-contact,
+    .footer-links,
+    .footer-touch {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-socials {
+        justify-content: center;
+    }
+
+    .footer-policy {
+        position: static;
+        margin-top: 20px;
+    }
+}

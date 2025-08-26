@@ -1,0 +1,165 @@
+.case-studies {
+  padding: 60px 100px;
+  background: #ffffff;
+  font-family: "Avenir Black", sans-serif;
+  font-style: italic;
+  padding-bottom: 0px;
+}
+
+.case-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+.case-image img {
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-left: -40px;
+}
+.case-list {
+  flex: 1;
+}
+
+.case-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #003366;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 23px;
+}
+
+.case-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0f0f0;
+  width: 475px;
+  height: 52px;
+}
+
+.case-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: #222;
+}
+
+.case-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.case-meta {
+  text-align: right;
+}
+
+.case-date {
+  font-size: 13px;
+  color: #777;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.read-more {
+  background: #F2F5FA;
+  color: #171151;
+  border: none;
+  padding: 8px 14px;
+  font-size: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  
+}
+
+.read-more:hover {
+  background: #7bc1e9;
+}
+
+
+
+/* Transformation Section */
+.transformation {
+  text-align: center;
+  background: #E5F7F1;
+  padding: 50px 20px;
+  padding-top: 10px;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: -98px;
+  margin-right: -100px;
+}
+
+.transformation h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #003366;
+  margin-bottom: 12px;
+}
+
+.transformation p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.transform-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.demo-btn {
+ 
+  background: none;
+  border: none;
+  padding: 0;
+   font-family: "Avenir Black", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 700;
+  color: #444444; /* Dark gray color for the text */
+  
+  /* Make the button a flex container to easily position the line */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  cursor: pointer;
+}
+
+/* Create the green line as a separate element */
+.demo-btn::after {
+content: '';
+  display: block;
+  width: 118px;
+  height: 2px;
+  background-color: #0eb00e;
+  margin-top: 5px;
+}
+
+
+
+.update-btn {
+  background: transparent;
+  color: #444;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-style: italic;
+  font-family: "Avenir Black", sans-serif;
+}

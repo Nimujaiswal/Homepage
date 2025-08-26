@@ -1,0 +1,127 @@
+.trustus {
+  font-family: "avenir heavy font", sans-serif;
+  font-style: italic;
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Header */
+.trustus-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #002f5e;
+}
+.trustus-header h2 span {
+  color: #0077b6;
+}
+.trustus-header p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+/* Features Grid */
+.trustus-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  padding-right: 0px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.feature-card {
+  text-align: left;
+}
+.feature-card img {
+  width: 50px;
+  margin-bottom: 5px;
+}
+.feature-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #002f5e;
+  margin-right: 60px;
+}
+.feature-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-right: 22px;
+}
+.feature-card li {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* Truck Section */
+/* Truck Section */
+.trustus-truck {
+  margin-top: 60px;
+  position: relative;
+}
+.truck-bg {
+  width: 100%;
+  border-radius: 16px;
+}
+
+/* Black Rectangle Overlay */
+.truck-overlay {
+  position: absolute;
+  top: 45%;
+  left: 58%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+.overlay-box {
+  background: rgba(0, 0, 0, 0.7); /* black rectangle */
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: #fff;
+  max-width: 400px;
+}
+.green-btn {
+  background: #00AD6F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.green-btn:hover {
+  background: #218838;
+}
+.overlay-box p {
+  margin-top: 18px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  background: #00AD6F;
+  color: #fff;
+  border: none;
+  font-size: -12rem;
+  padding: 8px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.right-arrow {
+  right: 155px;
+}
