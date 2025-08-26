@@ -47,12 +47,4 @@
   height: 20px;
 }
 
-/* ✅ Mobile responsiveness */
-@media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-  .menu-icon {
-    display: block;
-  }
-}
+
