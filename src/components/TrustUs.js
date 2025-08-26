@@ -9,7 +9,7 @@ import truckImage from "../assets/Truck.png";
 const TrustUs = () => {
   return (
     <section className="trustus">
-      {/* Top Section */}
+
       <div className="trustus-header">
         <h2>Why Global Companies Trust Us?</h2>
         <p>
@@ -18,7 +18,7 @@ const TrustUs = () => {
         </p>
       </div>
 
-      {/* Features Grid */}
+
       <div className="trustus-features">
         <div className="feature-card">
           <img src={icon1} alt="icon1" />
@@ -57,11 +57,11 @@ const TrustUs = () => {
         </div>
       </div>
 
-      {/* Truck Section */}
+
      <div className="trustus-truck">
   <img src={truckImage} alt="truck-bg" className="truck-bg" />
 
-  {/* Overlay with black rectangle */}
+
   <div className="truck-overlay">
     <div className="overlay-box">
       <button className="green-btn">Lorem Ipsum</button>
